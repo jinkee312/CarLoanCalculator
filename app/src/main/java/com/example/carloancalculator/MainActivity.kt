@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             val loan:Double = inputvalue1.toDouble() - inputvalue2.toDouble()
             val interest = loan * inputvalue4.toDouble() * inputvalue3.toDouble()
             val monthRepayment = (loan + interest)/ inputvalue3.toDouble() / 12
-
+//
             textViewLoan.text = "%.2f".format(loan)
             textViewInterest.text = "%.2f".format(interest)
             textViewMonthlyRepayment.text = "%.2f".format(monthRepayment)
